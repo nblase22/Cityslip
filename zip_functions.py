@@ -348,6 +348,7 @@ def get_community_data(target_zip):
     conn = http.client.HTTPSConnection("search.onboard-apis.com")
     headers = {
         'accept': "application/json",
+        # Reenter Onboard API Key
         'apikey': "",
         } 
 
@@ -452,6 +453,7 @@ def get_zip_factors (zipc, lat, lng, zip_factors_dict):
     print("Market Health: %s" % zip_factors_dict['market_health'])
     
     #2) ##get walkability, transit and bike scores from Walk Score.
+    # Input walkscore API Key
     walk_api_key = ""
     walk_url = "http://api.walkscore.com/score?format=json&"
     # Build query URL
@@ -513,6 +515,7 @@ def get_school_data(lat, lng, radius):
     school_url = "/propertyapi/v1.0.0/school/snapshot?"
     headers = { 
         'accept': "application/json", 
+        # Reenter Onboard API Key
         'apikey': "", 
         } 
 
