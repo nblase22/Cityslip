@@ -1,3 +1,5 @@
+![City Skyline](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chicago_from_North_Avenue_Beach_June_2015_panorama_2.jpg/800px-Chicago_from_North_Avenue_Beach_June_2015_panorama_2.jpg)
+
 Overview:
 CitySlip receives a single U.S. zip code as an input and runs analytics against:
   1. Population
